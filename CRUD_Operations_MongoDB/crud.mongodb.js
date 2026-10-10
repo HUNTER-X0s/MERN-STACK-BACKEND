@@ -85,7 +85,7 @@ let b = db.courses.findOne({price: 0})
 
 console.log(b)
 
-// UPDATE
+// UPDATE 
 
 db.courses.updateOne({price: 0}, {$set:{price: 100}})
 

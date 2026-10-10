@@ -9,6 +9,8 @@ app.use(express.static("public"))
 app.use('/blog', blog)
 app.use('/shop', shop)
 
+
+// Request Chaining
 app.get('/', (req, res) => {
     console.log("Hey its a get request")
     res.send('Hello World21!')
@@ -19,6 +21,7 @@ app.get('/', (req, res) => {
     console.log("Hey its a put request")
     res.send('Hello World put!')
 })
+
 
 
 app.get("/index", (req, res) => {
@@ -33,3 +36,6 @@ app.get("/api", (req, res) => {
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
+
+
+// Browser by default uses the get request

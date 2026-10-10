@@ -1,5 +1,5 @@
 
-use('SigmaDatabase');
+use('TestDatabase');
 
 // Insert a few documents into the courses collection.
 db.getCollection('courses').insertMany([

@@ -8,14 +8,18 @@ const fs = require("fs")
 
 app.use('/blog', blog)
 
-//Middleware - modifys the request.............A function that will run before every request........it has request and response object....it can also set response.....can authenticate by checking the request header....and the order is very important 
+//Middleware - modifys the request.............A function that will run before every request........it has request and response object....it can also send response.....can authenticate by checking the request header....and the order is very important 
 
 // Different types of middleware :-
+
 // Application level middleware
 // Router level middleware
 // Error-handling middleware
 // Built-in middleware
 // Third-party middleware
+
+
+// By the use of middleware, you can validate cookies. You can validate whether the user is logged in or not. 
 
 
 // Middleware 1 - Logger for our application

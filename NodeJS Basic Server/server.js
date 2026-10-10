@@ -16,6 +16,6 @@ console.log(b)
 
 
 
-//NodeJS is javascripts v8 engine
+//NodeJS is javascripts or chrome v8 engine
 //NPM = Node Package Manager
 //ExpressJS is used majorly to build backend applications

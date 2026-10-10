@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "NodeJS Basic Server",
   "version": "1.0.0",
   "description": "learning purpose",
   "keywords": [
@@ -19,3 +19,4 @@
     "slugify": "^1.6.9"
   }
 }
+       

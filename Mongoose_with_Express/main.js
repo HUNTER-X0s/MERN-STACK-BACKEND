@@ -2,6 +2,11 @@
 
 // Mongoose is a Javascript Object oriented Programming library that creates a connection between Mongodb and the Node.js JavaScript runtime environment
 
+// MongoDB does not follow a set of schema rules. 
+// But whereas Mongoose can set the schema rules. For example, if the name schema is written there, it has to be stored in String. It cannot be stored as a number.
+
+// By imposing the schema, the overall security of the application increases. 
+
 import mongoose from "mongoose";
 import express from "express";
 import { Todo } from "./models/Todo.js";
